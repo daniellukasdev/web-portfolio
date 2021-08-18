@@ -18,16 +18,20 @@ body {
 /* Set the header formatting */
 header {
     padding: 2.5%;
-    height: 120px;
+    height: 500px;
     background-color: #1F2125;
 }
 
-h1, h2 {
+h2 {
     margin: 2%;
 }
 
 h1 {
-    font-size: 72px;
+    margin: 20% 8% 2% 8%;
+    font-size: 96px;
+    /*
+    text-transform: uppercase;
+    */
 }
 h2 {
     font-size: 36px;
