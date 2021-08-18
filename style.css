@@ -1,1 +1,33 @@
-/* style */
+body {
+    background-color: #353A40;
+}
+
+footer {
+    padding: 20px;
+    background-color: #23262A;
+}
+.align-center {
+    margin: 50px;
+    text-align: center;
+    
+}
+.round-border {
+    border-radius: 50%;
+    /*background-size: auto;*/
+}
+
+.darktxt {
+    color: black;
+}
+.lighttxt {
+    color: lightgray;
+}
+
+.box {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 15px;
+}
