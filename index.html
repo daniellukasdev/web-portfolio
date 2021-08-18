@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html>
-
+    <!-- all the essentials -->
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Daniel Lukas</title>
-        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.
+        1/normalize.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;900&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
-
-        <header> <!-- My name and title -->
-            <div>
+        <!-- My name and title -->
+        <header>
+            <div class="align-center">
                 <h1>Daniel Lukas</h1>
-                <p>Developer/Artist</p>
+                <p>Developer</p>
             </div>
         </header>
+        <!-- Contains the page contents -->
         <main class="align-center">
             <!--  -->
-            <div> <!-- My photo and greeting -->
-                <img class="round-border" src="images/profile-picture.jpg" width="400" 
-                alt="Me smiling in black and white">
+            <!--  -->
+            <!-- My photo  -->
+            <img src="images/profile-picture.jpg" class="round-border float box-shadow"" 
+            alt="Me smiling in black and white"> 
+            <div class="box box-size-lg box-shadow">
+                <div> <!-- My greeting -->
+                    <h2>Hi, I'm Daniel Lukas</h2>
+                    <p>I am a developer currently living in Orlando, Florida.</p>
+                    <p>With a background in 3D art and animation, I am interested in:</p>
+                    <ul class="list-inside">
+                        <li>Beautiful cohesion through intuitive UI</li>
+                        <li>The intricacies of code and functionality of the back end</li>
+                        <li>Collaborating with like-minded developers </li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h2>Hi, I'm Daniel Lukas</h2>
-                <p>I am a developer and artist currently living in Orlando, Florida</p>
-            </div>
-            <div class="box box-shadow"> <!-- This is the "about me" section -->
+            <!-- This is the "about me" section -->
+            <div class="box box-size box-shadow"> 
                 <h2>About Me</h2>
                 <p>Here is why I am passionate about web development.</p>
                 <p>Here are my interests outside of web development.</p>
-
             </div>
-            <div class="box box-shadow"> <!-- This is the "contact me" section-->
+            <!-- This is the "contact me" section-->
+            <div class="box box-size box-shadow"> 
                 <h2>Contact Me</h2>
                 <p>For business inquiries, please email me at 
                     <a href="mailto:dtlukasart@gmail.com">dtlukasart@gmail.com</a></p>
