@@ -134,7 +134,7 @@ img {
 .round-border {
     padding: 0;
     margin: 2% 4% 2% 2%;
-    border: 1px solid var(--gainsboro);
+    border: 2px solid var(--gainsboro);
     border-radius: 50% 50% 0 50%;
 }
 
