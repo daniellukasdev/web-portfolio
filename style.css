@@ -118,6 +118,8 @@ p > a:active  { color: var(--white); }
 
 hr {
     margin: 5% 12% 5% 12%;
+    border: 1px solid var(--jetdark);
+    box-shadow: 0 1px 1px var(--fog);
 }
 
 img {
