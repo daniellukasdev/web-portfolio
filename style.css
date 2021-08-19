@@ -42,6 +42,7 @@ h1 {
 h3 {
     font-size: 2vh;
     font-weight: 600;
+    color: var(--orange);
 }
 
 /* Set styling for h2 in articles */
