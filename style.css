@@ -111,10 +111,10 @@ p > a {
     text-decoration: none;
 }
 
-p > a:link    { color: var(--jetdark);  }
-p > a:visited { color: var(--indigo-dye);   }
+p > a:link    { color: var(--cyan);  }
+p > a:visited { color: var(--jetdark);   }
 p > a:hover   { color: var(--ming); }
-p > a:active  { color: var(--ming);  }
+p > a:active  { color: var(--white);  }
 
 hr {
     margin: 5% 10% 5% 10%;
