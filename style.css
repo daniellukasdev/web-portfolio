@@ -27,15 +27,15 @@ header > div > h2 {
     font-weight: 600;
     color: var(--orange);
     text-transform: uppercase;
-    letter-spacing: 1vw; 
+    letter-spacing: 2vw; 
 }
 /* Set styling for h1 */
 h1 {
-    margin: 5% 2% 2% 2%;
+    margin: 8% 2% 2% 2%;
     font-size: 12vh;
     font-weight: 900;
     color: var(--white);
-    letter-spacing: 2vw;   
+    letter-spacing: 1vw;      
 }
 
 /* set style for h3 */
