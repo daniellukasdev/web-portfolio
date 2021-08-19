@@ -101,7 +101,7 @@ p {
     font-size: 18px;
 }
 
-main > li {
+main > article > div > ol > li {
     font-size: 18px;
 }
 
