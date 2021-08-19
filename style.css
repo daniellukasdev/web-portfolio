@@ -25,7 +25,7 @@ header > div > h2 {
     margin: 0;
     font-size: 4vh;
     font-weight: 600;
-    color: var(--white);
+    color: var(--orange);
     text-transform: uppercase;
     letter-spacing: 1vw; 
 }
@@ -84,7 +84,8 @@ nav > ul > li > a:hover {
 }
 
 nav > ul > li > a:active {
-    background-color: var(--cyan);
+    background-color: var(--orange);
+    color: var(--jetdark);
 }
 
 /* ---------------------------------------------------- */
@@ -116,8 +117,8 @@ main > article > div > p > a {
     font-weight: 600;
 }
 
-main > article > div > p > a:link    { color: orange ; }
-main > article > div > p > a:visited { color: orange; }
+main > article > div > p > a:link    { color: var(--orange); }
+main > article > div > p > a:visited { color: var(--orange); }
 main > article > div > p > a:hover   { color: red; }
 main > article > div > p > a:active  { color: white; }
 
@@ -212,5 +213,6 @@ img {
     --fog: #808080;
     --smoke: #4D4D4D;
     --indigo-dye: #284b63;
+    --orange: #ffa500;
 }
 
