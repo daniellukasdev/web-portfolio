@@ -116,10 +116,10 @@ main > article > div > p > a {
     font-weight: 600;
 }
 
-main > article > div > p > a:link    { color: var(--jetdark); }
-main > article > div > p > a:visited { color: var(--jetdark); }
-main > article > div > p > a:hover   { color: var(--cyan); }
-main > article > div > p > a:active  { color: var(--white); }
+main > article > div > p > a:link    { color: orange ; }
+main > article > div > p > a:visited { color: orange; }
+main > article > div > p > a:hover   { color: red; }
+main > article > div > p > a:active  { color: white; }
 
 hr {
     margin: 5% 12% 5% 12%;
