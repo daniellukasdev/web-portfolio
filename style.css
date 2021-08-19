@@ -35,12 +35,17 @@ h1 {
     font-size: 12vh;
     font-weight: 900;
     color: var(--white);
-    letter-spacing: 2vw;
-    
+    letter-spacing: 2vw;   
 }
 
-/* Set styling for h1 */
-main > article > h2 {
+/* set style for h3 */
+h3 {
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+/* Set styling for h2 in articles */
+main > article > div > h2 {
     margin: 2% 0 2% 0;
     font-size: 42px;
     font-weight: 900;
