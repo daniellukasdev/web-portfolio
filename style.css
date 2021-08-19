@@ -1,5 +1,5 @@
 /*
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;900&display=swap');
 */
 
 /* Sets the general page format */
@@ -69,14 +69,14 @@ h1 {
     font-weight: 900;
     color: var(--jet);
     letter-spacing: 2vw;
-    text-shadow: 0 0 2px var(--white);
+    
 }
 
 /* Set styling for h1 */
 h2 {
     margin: 2%;
     font-size: 42px;
-    font-weight: 700;
+    font-weight: 900;
     font-kerning: 10;
     color: var(--cyan);
 }
@@ -88,6 +88,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 1vw;
     text-shadow: 0 0 2px var(--white);
+    
 }
 
 /* Set all paragraph and list item size and margins */
@@ -193,9 +194,11 @@ img {
 
 /* a class that creates the banner color bands */
 .color-bands {
-    background: linear-gradient(45deg, var(--jet) 0%, 16.67%, var(--ming) 16.67%, 33.34%, 
+    background-image: linear-gradient(45deg, var(--jet) 0%, 16.67%, var(--ming) 16.67%, 33.34%, 
     var(--white) 33.34%, 50.01%, var(--gainsboro) 50.01%, 66.68%, var(--indigo-dye) 66.68%, 83.35%, var(--cyan) 83.35%);
     background-size: 100%;
+
+    
 }
 
 
