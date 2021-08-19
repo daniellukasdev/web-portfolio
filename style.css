@@ -5,19 +5,19 @@
 /* Sets the general page format */
 body {
     margin: 0px;
-    background-color: #3d5a80;
-    background: linear-gradient(90deg, #293241, 2%, #3d5a80, 98%, #293241);
+    background-color: var(--indigo-dye);
+    background: linear-gradient(90deg, var(--jetdark), 2%, var(--indigo-dye), 98%, var(--jetdark));
     background-size: 100%;
     font-family: 'Inter', sans-serif;
-    color: #e0fbfc;
+    color: var(--white);
 }
 
 /* Set the header formatting and backup color*/
 header {
     margin: 0;
-    padding: 10% 5% 10% 5%;
-    height: 64vh;
-    background-color: #293241;
+    padding: 5%;
+    height: 42vh;
+    background-color: var(--jetdark);
 }
 
 /* ------- Navigation styling -------*/
@@ -26,7 +26,7 @@ nav > ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #98c1d9;
+    background-color: var(--jetdark);
 }
 
 nav > ul > li {
@@ -38,7 +38,7 @@ nav > ul > li > a {
     display: block;
     padding: 14px 16px;
     margin: 0;
-    color: #e0fbfc;
+    color: var(--white);
     text-align: center;
     font-size: 24px;
     font-weight: 900;
@@ -46,11 +46,11 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    background-color: #293241;
+    background-color: var(--ming);
 }
 
 nav > ul > li > a:active {
-    background-color: #ee6c4d;
+    background-color: var(--cyan);
 }
 
 /* ---------------------------------------------------- */
@@ -59,34 +59,35 @@ nav > ul > li > a:active {
 footer {
     padding: 3%;
     height: 6vh;
-    background-color: #293241;
+    background-color: var(--jetdark);
 }
 
+/* Set styling for h1 */
 h1 {
-    margin: 10% 5% 5% 5%;
-    font-size: 15vh;
+    margin: 5% 2% 2% 2%;
+    font-size: 12vh;
     font-weight: 900;
-    color: #293241;
-    text-shadow: 0 0 2px #e0fbfc;
-    
-    /*
-    text-transform: uppercase;
-    */
+    color: var(--jet);
+    letter-spacing: 2vw;
+    text-shadow: 0 0 2px var(--white);
 }
 
+/* Set styling for h1 */
 h2 {
     margin: 2%;
     font-size: 42px;
     font-weight: 700;
     font-kerning: 10;
-    color: #ee6c4d;
+    color: var(--cyan);
 }
 h3 {
-    margin: 0 5% 5% 5%;
-    font-size: 3vh;
-    font-weight: 900;
-    color: #293241;
+    margin: 0;
+    font-size: 6vh;
+    font-weight: 600;
+    color: var(--jet);
     text-transform: uppercase;
+    letter-spacing: 1vw;
+    text-shadow: 0 0 2px var(--white);
 }
 
 /* Set all paragraph and list item size and margins */
@@ -100,7 +101,7 @@ main > li {
 
 header > div > p {
     font-size: 24px;
-    color: #293241;
+    color: var(--jetdark);
 }
 
 /* main link styling */
@@ -109,10 +110,10 @@ p > a {
     text-decoration: none;
 }
 
-p > a:link    { color: #293241;  }
-p > a:visited { color: #3d5a80;   }
-p > a:hover   { color: #ee6c4d; }
-p > a:active  { color: #98c1d9;  }
+p > a:link    { color: var(--jetdark);  }
+p > a:visited { color: var(--indigo-dye);   }
+p > a:hover   { color: var(--ming); }
+p > a:active  { color: var(--ming);  }
 
 hr {
     margin: 5% 10% 5% 10%;
@@ -120,13 +121,6 @@ hr {
 img {
     width: 200px;
     max-width: 350px;
-}
-
-/* a class that creates the banner color bands */
-.color-bands {
-    background: linear-gradient(45deg, rgba(61,90,128,1) 0%, 20%, rgba(152,193,217,1) 20%, 40%, 
-    rgba(224,251,252,1) 40%, 60%, rgba(238,108,77,1) 60%, 80%, rgba(41,50,65,1) 80%);
-    background-size: 100%;
 }
 
 .list-outside {
@@ -148,7 +142,7 @@ img {
 .round-border {
     padding: 0;
     margin: 2% 4% 2% 2%;
-    border: 1px solid #8A94A4;
+    border: 1px solid var(--smoke);
     border-radius: 50% 50% 0 50%;
 }
 
@@ -156,16 +150,16 @@ img {
 .box {
     text-align: left;
     box-sizing: border-box;
-    background-color: #3d5a80;
-    border: 1px solid #8A94A4;
+    background-color: var(--indigo-dye);
+    border: 1px solid var(--smoke);
     border-radius: 10px;
 }
 /* A class that defines the box around images */
 .img-box {
     margin: 0% 2% 2% 2%;
     box-sizing: border-box;
-    background-color: #3d5a80;
-    border: 1px solid #8A94A4;
+    background-color: var(--indigo-dye);
+    border: 1px solid var(--smoke);
     border-radius: 30px;
 }
 
@@ -194,27 +188,30 @@ img {
 
 .box-inner-shadow {
     padding: 5%;
-    box-shadow: inset 0 0 20px #293241;
+    box-shadow: inset 0 0 20px var(--jetdark);
 }
 
-
+/* a class that creates the banner color bands */
+.color-bands {
+    background: linear-gradient(45deg, var(--jet) 0%, 16.67%, var(--ming) 16.67%, 33.34%, 
+    var(--white) 33.34%, 50.01%, var(--gainsboro) 50.01%, 66.68%, var(--indigo-dye) 66.68%, 83.35%, var(--cyan) 83.35%);
+    background-size: 100%;
+}
 
 
 
 
 /* Color Definitions */
 
-
+/* CSS HEX */
 :root {
-    --rich-black-fogra-29: #001219ff;
-    --blue-sapphire: #005f73ff;
-    --viridian-green: #0a9396ff;
-    --middle-blue-green: #94d2bdff;
-    --medium-champagne: #e9d8a6ff;
-    --gamboge: #ee9b00ff;
-    --alloy-orange: #ca6702ff;
-    --mahogany: #bb3e03ff;
-    --rufous: #ae2012ff;
-    --ruby-red: #9b2226ff;
+    --jetdark: #252525ff;
+    --jet: #353535ff;
+    --ming: #3c6e71ff;
+    --white: #ffffffff;
+    --cyan: #6CB2CCff;
+    --gainsboro: #d9d9d9ff;
+    --smoke: #808080ff;
+    --indigo-dye: #284b63ff;
 }
 
