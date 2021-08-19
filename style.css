@@ -2,37 +2,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 */
 
-/* Set the general page format */
-
+/* Sets the general page format */
 body {
     margin: 0px;
-    background-color: #353A40;
-    /*
-    background: linear-gradient(90deg, #1F2125, 2%, #353A40, 98%, #1F2125);
-    */
+    background-color: #3d5a80;
+    background: linear-gradient(90deg, #293241, 2%, #3d5a80, 98%, #293241);
     background-size: 100%;
     font-family: 'Inter', sans-serif;
-    color: lightgray;
+    color: #e0fbfc;
 }
 
-/* Set the header formatting */
+/* Set the header formatting and backup color*/
 header {
     margin: 0;
     padding: 10% 5% 10% 5%;
     height: 64vh;
-    background-color: #1F2125;
+    background-color: #293241;
 }
 
-/* Navigation styling */
-nav {
+/* ------- Navigation styling -------*/
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #98c1d9;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+/* ------ Navigation Link Styling ------- */
+nav > ul > li > a {
+    display: block;
+    padding: 14px 16px;
+    margin: 0;
+    color: #e0fbfc;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    background-color: #293241;
+}
+
+nav > ul > li > a:active {
+    background-color: #ee6c4d;
+}
+
+/* ---------------------------------------------------- */
+
+/* Sets the formatting for the footer */
+footer {
+    padding: 3%;
     height: 6vh;
-    background-color: darkcyan;
-    font-size: 28px;
+    background-color: #293241;
 }
 
 h1 {
-    margin: 10% 5% 10% 5%;
+    margin: 10% 5% 5% 5%;
     font-size: 15vh;
+    font-weight: 900;
+    color: #293241;
+    text-shadow: 0 0 2px #e0fbfc;
+    
     /*
     text-transform: uppercase;
     */
@@ -40,25 +76,61 @@ h1 {
 
 h2 {
     margin: 2%;
+    font-size: 42px;
+    font-weight: 700;
+    font-kerning: 10;
+    color: #ee6c4d;
 }
-
-h2 {
-    font-size: 36px;
+h3 {
+    margin: 0 5% 5% 5%;
+    font-size: 3vh;
+    font-weight: 900;
+    color: #293241;
+    text-transform: uppercase;
 }
 
 /* Set all paragraph and list item size and margins */
-p, li {
-    margin: 2%;
-    font-size: 14px;
+p {
+    font-size: 18px;
 }
 
+main > li {
+    font-size: 18px;
+}
+
+header > div > p {
+    font-size: 24px;
+    color: #293241;
+}
+
+/* main link styling */
+
+p > a {
+    text-decoration: none;
+}
+
+p > a:link    { color: #293241;  }
+p > a:visited { color: #3d5a80;   }
+p > a:hover   { color: #ee6c4d; }
+p > a:active  { color: #98c1d9;  }
+
+hr {
+    margin: 5% 10% 5% 10%;
+}
 img {
     width: 200px;
     max-width: 350px;
 }
 
-.list-inside {
-    list-style-position: inside;
+/* a class that creates the banner color bands */
+.color-bands {
+    background: linear-gradient(45deg, rgba(61,90,128,1) 0%, 20%, rgba(152,193,217,1) 20%, 40%, 
+    rgba(224,251,252,1) 40%, 60%, rgba(238,108,77,1) 60%, 80%, rgba(41,50,65,1) 80%);
+    background-size: 100%;
+}
+
+.list-outside {
+    list-style-position: outside;
 }
 
 /* A class that allows for side by side layout */
@@ -75,7 +147,7 @@ img {
 /* A class that creates a circle border */
 .round-border {
     padding: 0;
-    margin: 2% 2% 2% 2%;
+    margin: 2% 4% 2% 2%;
     border: 1px solid #8A94A4;
     border-radius: 50% 50% 0 50%;
 }
@@ -84,7 +156,7 @@ img {
 .box {
     text-align: left;
     box-sizing: border-box;
-    background-color: #353A40;
+    background-color: #3d5a80;
     border: 1px solid #8A94A4;
     border-radius: 10px;
 }
@@ -92,24 +164,12 @@ img {
 .img-box {
     margin: 0% 2% 2% 2%;
     box-sizing: border-box;
-    background-color: #353A40;
+    background-color: #3d5a80;
     border: 1px solid #8A94A4;
     border-radius: 30px;
 }
 
-.nav-box {
-    box-sizing: border-box;
-    padding: 0 10% 0 10%;
-    text-align: center;
-    background-color: darkcyan;
-    /*
-    border: 1px solid #8A94A4;
-    */
-}
 
-.link-spacer {
-    margin: 0 10% 0 10%;
-}
 
 /* Sets the padding for normal boxes */
 .box-size {
@@ -120,7 +180,7 @@ img {
 
 /* Sets the padding for the large box */
 .box-size-lg {
-    padding: 1.25%;
+    padding: 1.25% 1.25% 1.25% 8%;
     margin: 5% 10% 5% 10%;
     width: 80%;
     min-height: 260p;
@@ -134,17 +194,27 @@ img {
 
 .box-inner-shadow {
     padding: 5%;
-    box-shadow: inset 0 0 20px #1F2125;
+    box-shadow: inset 0 0 20px #293241;
 }
 
-/* Sets the formatting for the footer */
-footer {
-    padding: 2.5%;
-    height: 128px;
-    background-color: #1F2125;
-}
+
 
 
 
 
 /* Color Definitions */
+
+
+:root {
+    --rich-black-fogra-29: #001219ff;
+    --blue-sapphire: #005f73ff;
+    --viridian-green: #0a9396ff;
+    --middle-blue-green: #94d2bdff;
+    --medium-champagne: #e9d8a6ff;
+    --gamboge: #ee9b00ff;
+    --alloy-orange: #ca6702ff;
+    --mahogany: #bb3e03ff;
+    --rufous: #ae2012ff;
+    --ruby-red: #9b2226ff;
+}
+

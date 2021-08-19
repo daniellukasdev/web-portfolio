@@ -13,31 +13,25 @@
 
     <body>
         <!-- My name and title -->
-        <header>
+        <header class="color-bands">
             <div class="align-center">
                 <h1>Daniel Lukas</h1>
-                <p>Developer</p>
+                <h3>Developer</h3>
             </div>
         </header>
         <!-- Navigation Bar-->
-        <nav class="nav-box align-center">
+        <nav>
+            <ul>
             <!-- Link to About Me -->
-            <div class="float link-spacer">
-                <a href="#about">About Me</a>
-            </div>
+            <li><a href="#about">About Me</a></li>
             <!-- Link to Contact Info -->
-            <div class="float link-spacer">
-                <a href="#contact">Contact</a>
-            </div>
+            <li><a href="#contact">Contact</a></li>
             <!-- Link to GitHub -->
-            <div class="float link-spacer">
-                <a href="https://github.com/danlukasart" target="_blank">GitHub</a>
-            </div>
+            <li><a href="https://github.com/danlukasart" target="_blank">GitHub</a></li>
+            </ul>
         </nav>
         <!-- Contains the page contents -->
         <main class="align-center box-inner-shadow">
-            <!--  -->
-            <!--  -->
             <!-- My photo  -->
             <img src="images/profile-picture.jpg" class="round-border float box-shadow"" 
             alt="Me smiling in black and white"> 
@@ -45,15 +39,15 @@
                 <!-- My greeting -->
                 <h2>Hi, I'm Daniel Lukas</h2>
                 <p>I am a developer currently living in Orlando, Florida.</p>
-                
-                
+                <hr>
                 <p>With a background in 3D art and animation, I am interested in:</p>
-                <ol class="list-inside">
+                <ol>
                     <li>Beautiful cohesion through intuitive UI</li>
                     <li>The intricacies of code and functionality behind the user experience</li>
                     <li>Collaborating with like-minded developers </li>
                 </ol>
             </div>
+            <hr>
             <!-- This is the "about me" section -->
             <div class="box box-size box-shadow" id="about"> 
                 <h2>About Me</h2>
@@ -73,17 +67,18 @@
                     <li>Retro video games</li>
                 </ul>
             </div>
+            <hr>
             <!-- This is the "contact me" section-->
             <div class="box box-size box-shadow" id="contact"> 
                 <h2>Contact Me</h2>
                 <p>If you are interested in hiring a developer with my knowledge and experience, 
                     please email me at <a href="mailto:dtlukasart@gmail.com">dtlukasart@gmail.com</a>
-                    or reach out to me via LinkedIn at <a href="www.linkedin.com/in/danlukasart">/danlukasart</a>.</p>
+                    or reach out to me via <a href="www.linkedin.com/in/danlukasart">LinkedIn</a>.</p>
             </div>
         </main>
         <footer>
             <div>
-                <p class="align-center">&copy;Daniel Lukas</p>
+                <p class="align-center">&copy; Daniel Lukas</p>
             </div>
         </footer>
         <script src="script.js"></script>
