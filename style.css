@@ -111,15 +111,20 @@ p > a {
     text-decoration: none;
 }
 
-p > a:link    { color: var(--cyan); }
-p > a:visited { color: var(--jetdark); }
-p > a:hover   { color: var(--ming); }
-p > a:active  { color: var(--white); }
+main > article > div > p > a {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+main > article > div > p > a:link    { color: var(--jetdark); }
+main > article > div > p > a:visited { color: var(--jetdark); }
+main > article > div > p > a:hover   { color: var(--cyan); }
+main > article > div > p > a:active  { color: var(--white); }
 
 hr {
     margin: 5% 12% 5% 12%;
     border: 1px solid var(--jetdark);
-    box-shadow: 0 1px 1px var(--fog);
+    box-shadow: 0 1px 0 var(--fog);
 }
 
 img {
@@ -142,7 +147,7 @@ img {
 .round-border {
     padding: 0;
     margin: 2% 4% 2% 2%;
-    border: 2px solid var(--white);
+    border: 3px solid var(--white);
     border-radius: 50% 50% 0 50%;
 }
 
