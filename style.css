@@ -12,12 +12,44 @@ body {
     color: var(--white);
 }
 
-/* Set the header formatting and backup color*/
+/* ------ Set the header formatting and backup color -------*/
 header {
     margin: 0;
     padding: 5%;
     height: 42vh;
     background-color: var(--jetdark);
+}
+header > div > p {
+    font-size: 24px;
+    color: var(--jetdark);
+}
+
+/* Set styling for h1 */
+h1 {
+    margin: 5% 2% 2% 2%;
+    font-size: 12vh;
+    font-weight: 900;
+    color: var(--white);
+    letter-spacing: 2vw;
+    
+}
+
+/* Set styling for h1 */
+h2 {
+    margin: 2%;
+    font-size: 42px;
+    font-weight: 900;
+    font-kerning: 10;
+    color: var(--cyan);
+}
+h3 {
+    margin: 0;
+    font-size: 6vh;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    
 }
 
 /* ------- Navigation styling -------*/
@@ -62,34 +94,6 @@ footer {
     background-color: var(--jetdark);
 }
 
-/* Set styling for h1 */
-h1 {
-    margin: 5% 2% 2% 2%;
-    font-size: 12vh;
-    font-weight: 900;
-    color: var(--white);
-    letter-spacing: 2vw;
-    
-}
-
-/* Set styling for h1 */
-h2 {
-    margin: 2%;
-    font-size: 42px;
-    font-weight: 900;
-    font-kerning: 10;
-    color: var(--cyan);
-}
-h3 {
-    margin: 0;
-    font-size: 6vh;
-    font-weight: 600;
-    color: var(--white);
-    text-transform: uppercase;
-    letter-spacing: 1vw;
-    
-}
-
 /* Set all paragraph and list item size and margins */
 p {
     font-size: 18px;
@@ -99,32 +103,23 @@ main > li {
     font-size: 18px;
 }
 
-header > div > p {
-    font-size: 24px;
-    color: var(--jetdark);
-}
-
 /* main link styling */
-
 p > a {
+    font-weight: 600;
     text-decoration: none;
 }
 
-p > a:link    { color: var(--cyan);  }
-p > a:visited { color: var(--jetdark);   }
+p > a:link    { color: var(--cyan); }
+p > a:visited { color: var(--jetdark); }
 p > a:hover   { color: var(--ming); }
-p > a:active  { color: var(--white);  }
+p > a:active  { color: var(--white); }
 
 hr {
-    margin: 5% 10% 5% 10%;
+    margin: 5% 12% 5% 12%;
 }
 img {
     width: 200px;
     max-width: 350px;
-}
-
-.list-outside {
-    list-style-position: outside;
 }
 
 /* A class that allows for side by side layout */
@@ -183,7 +178,7 @@ img {
 
 /* This creates a shadow behind each box */
 .box-shadow {
-    box-shadow: 0px 0px 20px #0C0C0E;
+    box-shadow: 0px 0px 20px var(--jetdark);
 }
 
 .box-inner-shadow {
@@ -194,7 +189,8 @@ img {
 /* a class that creates the banner color bands */
 .color-bands {
     background-image: linear-gradient(45deg, var(--jet) 0%, 16.67%, var(--ming) 16.67%, 33.34%, 
-    var(--jetdark) 33.34%, 50.01%, var(--smoke) 50.01%, 66.68%, var(--indigo-dye) 66.68%, 83.35%, var(--cyan) 83.35%);
+    var(--jetdark) 33.34%, 50.01%, var(--smoke) 50.01%, 66.68%, var(--indigo-dye) 66.68%, 
+    83.35%, var(--cyan) 83.35%);
     background-size: 100%;
 
     
