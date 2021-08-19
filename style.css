@@ -21,7 +21,7 @@ header {
 }
 
 /* styling for text under h1 */
-header > div > p {
+header > div > h2 {
     margin: 0;
     font-size: 4vh;
     font-weight: 600;
