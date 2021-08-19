@@ -67,7 +67,7 @@ h1 {
     margin: 5% 2% 2% 2%;
     font-size: 12vh;
     font-weight: 900;
-    color: var(--jet);
+    color: var(--white);
     letter-spacing: 2vw;
     
 }
@@ -84,10 +84,9 @@ h3 {
     margin: 0;
     font-size: 6vh;
     font-weight: 600;
-    color: var(--jet);
+    color: var(--white);
     text-transform: uppercase;
     letter-spacing: 1vw;
-    text-shadow: 0 0 2px var(--white);
     
 }
 
@@ -152,7 +151,7 @@ img {
     text-align: left;
     box-sizing: border-box;
     background-color: var(--indigo-dye);
-    border: 1px solid var(--smoke);
+    border: 1px solid var(--fog);
     border-radius: 10px;
 }
 /* A class that defines the box around images */
@@ -195,7 +194,7 @@ img {
 /* a class that creates the banner color bands */
 .color-bands {
     background-image: linear-gradient(45deg, var(--jet) 0%, 16.67%, var(--ming) 16.67%, 33.34%, 
-    var(--white) 33.34%, 50.01%, var(--gainsboro) 50.01%, 66.68%, var(--indigo-dye) 66.68%, 83.35%, var(--cyan) 83.35%);
+    var(--jetdark) 33.34%, 50.01%, var(--smoke) 50.01%, 66.68%, var(--indigo-dye) 66.68%, 83.35%, var(--cyan) 83.35%);
     background-size: 100%;
 
     
@@ -208,13 +207,14 @@ img {
 
 /* CSS HEX */
 :root {
-    --jetdark: #252525ff;
-    --jet: #353535ff;
-    --ming: #3c6e71ff;
-    --white: #ffffffff;
-    --cyan: #6CB2CCff;
-    --gainsboro: #d9d9d9ff;
-    --smoke: #808080ff;
-    --indigo-dye: #284b63ff;
+    --jetdark: #252525;
+    --jet: #353535;
+    --ming: #3c6e71;
+    --white: #ffffff;
+    --cyan: #6CB2CC;
+    --gainsboro: #d9d9d9;
+    --fog: #808080;
+    --smoke: #4D4D4D;
+    --indigo-dye: #284b63;
 }
 
