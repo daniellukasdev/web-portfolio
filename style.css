@@ -19,11 +19,16 @@ header {
     height: 42vh;
     background-color: var(--jetdark);
 }
-header > div > p {
-    font-size: 24px;
-    color: var(--jetdark);
-}
 
+/* styling for text under h1 */
+header > div > p {
+    margin: 0;
+    font-size: 4vh;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 1vw; 
+}
 /* Set styling for h1 */
 h1 {
     margin: 5% 2% 2% 2%;
@@ -36,21 +41,13 @@ h1 {
 
 /* Set styling for h1 */
 h2 {
-    margin: 2%;
+    margin: 2% 0 2% 0;
     font-size: 42px;
     font-weight: 900;
     font-kerning: 10;
     color: var(--cyan);
 }
-h3 {
-    margin: 0;
-    font-size: 6vh;
-    font-weight: 600;
-    color: var(--white);
-    text-transform: uppercase;
-    letter-spacing: 1vw;
-    
-}
+
 
 /* ------- Navigation styling -------*/
 nav > ul {
@@ -137,7 +134,7 @@ img {
 .round-border {
     padding: 0;
     margin: 2% 4% 2% 2%;
-    border: 1px solid var(--smoke);
+    border: 1px solid var(--gainsboro);
     border-radius: 50% 50% 0 50%;
 }
 
