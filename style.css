@@ -40,7 +40,7 @@ h1 {
 }
 
 /* Set styling for h1 */
-h2 {
+main > article > h2 {
     margin: 2% 0 2% 0;
     font-size: 42px;
     font-weight: 900;
