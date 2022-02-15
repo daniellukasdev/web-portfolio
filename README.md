@@ -1,2 +1,2 @@
 # web-portfolio
-# view at https://danlukasart.github.io/web-portfolio/
+# view at https://daniellukasdev.github.io/web-portfolio/
